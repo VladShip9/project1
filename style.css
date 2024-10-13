@@ -24,25 +24,134 @@ body{
     background-size: 1229px 768px;
     background-position-x: -102px;
 }
+
+html{
+    box-sizing: border-box;
+}
+
+
 .navigation {
     display: flex;
     justify-content: center;
     gap: 10px;
-}
-.active button {
-    background-color: transparent;
-    border: 1px solid #ff0070;
-    padding: 0px 13px;
-    width: 70px;
+    top: 20px;
+    left: 397px;
     height: 26px;
+    width: 230px;
+    position: relative;
 }
 
-button {
-    background-color: transparent;
-    padding: 0px 13px;
+button:active {
+    border: 1px solid #FF0070;
+}
+
+
+.navigation button {
+    padding-left:13px;
+    padding-right: 13px;
     width: 70px;
     height: 26px;
     border: none;
+    font-family: "IBM Plex Mono";
+    text-align: center;
+    size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FF0070;
+    background-color: rgba(28,28,28,0);
+    outline: none;
+    cursor: pointer;
 }
 
+button:hover {
+    border: 1px solid #FF0070;
+}
+
+.header .pale {
+    position: absolute ;
+    top: 723px;
+    left: 20px;
+    margin: 0px;
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    border-color: #FF0070;
+    
+}
+
+.header .pale2 {
+    position:absolute;
+    top: 20px;
+    left: 979px;
+    margin: 0px;
+    width: 25px;
+    height: 25px;
+    max-width: 25px;
+    border-width: 1px 1px 0px 0px ;
+    border-style: solid;
+    border-color: #FF0070;
+}
+
+.header .circle{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 28px;
+    left: 986px;
+    background: #FF0070;
+    border-radius: 100%;
+    box-shadow: 0 0 4px 2px #ff0070;
+}
+
+.header .rec {
+    position: absolute;
+    width: 33px;
+    height: 26px;
+    left: 943px;
+    top: 20px;
+    margin: 0px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #FF0070;
+}
+
+h1{
+    position: absolute;
+    top: 319px;
+    width: 759px;
+    height: 130px;
+    margin: 0px;
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+    font-size: 157px;
+    line-height: 129.53px;
+    color: #DB00FF;
+    text-shadow: 4px 4px 0px #FF0070;
+    
+}
+
+.p1{
+    position: relative;
+    top: 563px;
+    left: 513px;
+    right: 20px;
+    bottom: 134px;
+    width: 491px;
+    height: 71px;
+    color: #000028;
+    background-color: #FF0070;
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23.4px;
+}
 

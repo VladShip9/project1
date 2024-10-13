@@ -155,3 +155,12 @@ h1{
     line-height: 23.4px;
 }
 
+.p2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+
+}
+

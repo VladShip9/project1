@@ -42,7 +42,6 @@ html{
 .navigation {
     display: flex;
     justify-content: center;
-    gap: 10px;
     top: 20px;
     left: 397px;
     height: 26px;
@@ -65,7 +64,6 @@ button:active {
     border: none;
     font-family: "IBM Plex Mono";
     text-align: center;
-    size: 18px;
     font-weight: 400;
     line-height: 18px;
     color: #FF0070;
@@ -82,11 +80,11 @@ button:hover {
     position: absolute ;
     top: 723px;
     left: 20px;
-    margin: 0px;
+    margin: 0;
     width: 25px;
     height: 25px;
     max-width: 25px;
-    border-width: 0px 0px 1px 1px;
+    border-width: 0 0 1px 1px;
     border-style: solid;
     border-color: #FF0070;
     
@@ -100,7 +98,7 @@ button:hover {
     width: 25px;
     height: 25px;
     max-width: 25px;
-    border-width: 1px 1px 0px 0px ;
+    border-width: 1px 1px 0 0 ;
     border-style: solid;
     border-color: #FF0070;
 }
@@ -122,7 +120,7 @@ button:hover {
     height: 26px;
     left: 943px;
     top: 20px;
-    margin: 0px;
+    margin: 0;
     font-family: 'IBM Plex Mono';
     font-style: normal;
     font-weight: 400;
@@ -137,13 +135,13 @@ h1 {
     top: 319px;
     width: 759px;
     height: 130px;
-    margin: 0px;
+    margin: 0;
     font-family: 'IBM Plex Mono';
     font-weight: bold;
     font-size: 157px;
     line-height: 129.53px;
     color: #DB00FF;
-    text-shadow: 4px 4px 0px #FF0070;
+    text-shadow: 4px 4px 0 #FF0070;
     
 }
 
@@ -167,7 +165,7 @@ h1 {
     width: 1024px;
     height: 3352px;
     top: 828px;
-    gap: 0px;
+    gap: 0;
     opacity: 0px;
 }
 
@@ -176,10 +174,10 @@ h1 {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    padding: 0px;
+    padding: 0;
     width: 1024px;
     height: 508px;
-    left: 0px;
+    left: 0;
     top: 828px;
 }
 
@@ -191,7 +189,7 @@ h1 {
     width: 314.96px;
     height: 47px;
     left: 20px;
-    top: 0px;
+    top: 0;
     line-height: 23px;
     color: #FF0070;
 }
@@ -204,7 +202,7 @@ h1 {
     width: 648.92px;
     height: 23px;
     right: 20.19px;
-    top: 0px;
+    top: 0;
     line-height: 23px;
     color: #000028;
     background-color: #FF0070;
@@ -231,9 +229,6 @@ a {
     text-shadow: 2px 2px  #FF0070;
     color: #F1B2CE;
     text-decoration: none;
-
-    
-    color: #F1B2CE;
 }
 
 a:hover {
@@ -267,3 +262,128 @@ a:hover {
     line-height: 23px;
     color: #F1B2CE;
 }
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    isolation: isolate;
+    position: absolute;
+    width: 1024px;
+    height: 498px;
+    left: 0;
+    top: 1416px;
+}
+
+.section2 .title2 {
+    position: absolute;
+    width: 315px;
+    height: 47px;
+    left: 20px;
+    top: 0;
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    color: #FF0070;
+}
+
+.section2 .block2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 20px;
+    position: absolute;
+    width: 984px;
+    height: 431px;
+    left: 20px;
+    top: 67px;
+}
+
+
+.block2 .multitask2 {
+    position: absolute;
+    width: 315px;
+    height: 23px;
+    left: 0;
+    top: 0;
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000028;
+    background-color: #FF0070;
+}
+
+.block2 .text3 {
+    position: absolute;
+    width: 315px;
+    height: 351px;
+    left: 0;
+    top: 33px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #F1B2CE;
+}
+
+.block2 .EDA{
+    position: absolute;
+    width: 315px;
+    height: 23px;
+    left: 335px;
+    top: 0;
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #000028;
+    background-color: #FF0070;
+}
+
+.block2 .EDAt{
+    position: absolute;
+    width: 315px;
+    height: 328px;
+    top: 33px;
+    left: 335px;
+    font-family: 'IBM Plex Mono';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #F1B2CE;
+}
+
+.block2 .GADJETI{
+    position: absolute;
+    width: 315px;
+    height: 23px;
+    left: 670px;
+    top: 0;
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #000028;
+    background-color: #FF0070;
+}
+
+.block2 .GADJETIt{
+    position: absolute;
+    height: 398px;
+    width: 315px;
+    top: 33px;
+    left: 670px;
+    font-family: 'IBM Plex Mono';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #F1B2CE;
+}
+
+
+
+

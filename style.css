@@ -50,7 +50,7 @@ button {
     cursor: pointer;
 }
 
-header nav button:hover {
+button:hover {
     border: 1px solid #FF0070;
 }
 

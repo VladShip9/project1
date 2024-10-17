@@ -14,7 +14,7 @@ body {
     font-size: 18px;
     margin: 0 auto;
     width: 1024px;
-    font-family: "IBM Plex mono", "monospace";
+    font-family: "IBM Plex mono", "serif";
     color: #DB00FF;
     background-color: #000028;
 }
@@ -92,7 +92,6 @@ p {
     background-color: #ff0070;
 }
 
-
 .Nofocus {
     display: flex;
     flex-direction: column;
@@ -114,8 +113,8 @@ p {
     display: flex;
     align-self: flex-end;
     justify-content: end;
-    font-size: 18px;
     background-size: cover;
+    font-size: 18px;
     width: 491px;
     margin: auto 0;
     line-height: 23.4px;
@@ -123,7 +122,6 @@ p {
     color: #000028;
     background-color: #ff0070;
 }
-
 
 main {
     display: flex;
@@ -267,6 +265,8 @@ section:last-child {
 section:last-child .zagolovok {
     grid-area: title;
 }
+
+
 
 
 

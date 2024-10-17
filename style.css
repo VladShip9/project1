@@ -48,9 +48,6 @@ button {
     color: #ff0070;
     background-color: transparent;
     cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
 }
 
 header nav button:hover {
@@ -169,7 +166,7 @@ section h2 {
 
 .main-text {
     font-size: 18px;
-    font-family: "IBM Plex mono", "monospace";
+    font-family: "IBM Plex mono", serif;
     font-weight: 400;
     line-height: 23.4px;
     color: #f1b2ce;
@@ -191,24 +188,24 @@ section h2 {
     object-fit: cover;
 }
 
-.image-sea {
-    grid-area: sea;
+.image-img1 {
+    grid-area: img1;
 }
 
-.image-food {
-    grid-area: food;
+.image-img2 {
+    grid-area: img2;
 }
 
-.image-audio {
-    grid-area: audio;
+.image-img3 {
+    grid-area: img3;
 }
 
-.image-teable {
-    grid-area: teable;
+.image-img4 {
+    grid-area: img4;
 }
 
-.image-street {
-    grid-area: street;
+.image-img5 {
+    grid-area: img5;
 }
 
 footer {
@@ -262,9 +259,9 @@ section:last-child {
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
         "title title title"
-        "sea sea food"
-        "audio teable food"
-        "audio street street";
+        "img1 img1 img2"
+        "img3 img4 img2"
+        "img3 img5 img5";
 }
 
 section:last-child .zagolovok {

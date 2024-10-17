@@ -53,7 +53,7 @@ button {
     line-height: inherit;
 }
 
-button:hover {
+header nav button:hover {
     border: 1px solid #FF0070;
 }
 
@@ -184,6 +184,100 @@ section h2 {
     color: #000028;
     background-color: #ff0070;
 }
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* На весь блок */
+}
+
+.image-sea {
+    grid-area: sea;
+}
+
+.image-icecream {
+    grid-area: icecream;
+}
+
+.image-kaseta {
+    grid-area: kaseta;
+}
+
+.image-books {
+    grid-area: books;
+}
+
+.image-street {
+    grid-area: street;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    width: 1024px;
+    height: 768px;
+    background-image: url("image/Decorations.svg");
+}
+
+footer h2 {
+    color: #db00ff;
+    font-size: 157px;
+    font-weight: 700;
+    line-height: 129.53px;
+    text-shadow: 2px 2px 0 #ff0070;
+}
+
+section:first-child {
+    grid-template-columns: 315px 1fr;
+    row-gap: 20px;
+}
+
+section:first-child h2 {
+    grid-row: span 2;
+}
+
+section:nth-child(2) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+section:nth-child(2) h2 {
+    grid-column: span 3;
+    width: 30%;
+}
+
+section:nth-child(3) {
+    grid-template-columns: 315px 1fr;
+}
+
+section:last-child {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "title title title"
+        "sea sea icecream"
+        "kaseta books icecream"
+        "kaseta street street";
+}
+
+section:last-child .zagolovok {
+    grid-area: title;
+}
+
+
+
+
+
+
 
 
 

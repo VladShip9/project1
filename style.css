@@ -189,23 +189,22 @@ section h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* На весь блок */
 }
 
 .image-sea {
     grid-area: sea;
 }
 
-.image-icecream {
-    grid-area: icecream;
+.image-food {
+    grid-area: food;
 }
 
-.image-kaseta {
-    grid-area: kaseta;
+.image-audio {
+    grid-area: audio;
 }
 
-.image-books {
-    grid-area: books;
+.image-teable {
+    grid-area: teable;
 }
 
 .image-street {
@@ -213,12 +212,11 @@ section h2 {
 }
 
 footer {
-    position: relative;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     padding: 20px;
-
     width: 1024px;
     height: 768px;
     background-image: url("image/Decorations.svg");
@@ -264,9 +262,9 @@ section:last-child {
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
         "title title title"
-        "sea sea icecream"
-        "kaseta books icecream"
-        "kaseta street street";
+        "sea sea food"
+        "audio teable food"
+        "audio street street";
 }
 
 section:last-child .zagolovok {
